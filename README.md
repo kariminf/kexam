@@ -1,2 +1,2 @@
-# kexams
-Karim Exams: A LaTeX class to prepare exam subjects and their solutions
+# KExam
+Karim Exam: A LaTeX class to prepare exam subjects and their solutions
