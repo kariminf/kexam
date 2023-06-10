@@ -1,0 +1,71 @@
+% !TEX TS-program = pdflatex
+% !TeX program = pdflatex
+% !TEX encoding = UTF-8
+% !TEX spellcheck = en_US
+
+\documentclass[answers]{KExam}
+
+\setAnswerColor{blue}
+
+
+\begin{document}
+	
+	\section{Quiz. Knowledge Test}
+	
+	For multiple choice questions, a wrong choice cancels a correct one. The smallest grade per question is 0.
+	
+	\begin{question}
+		\query{Attentively read this text: ``\textbf{\textit{I faced/1 the worst of my nightmares: NLP exam. My face/2 was twitching while facing/3 this sheet. It is hard to confront/4 your fear. So, I looked/5 towards my watch and then into all the worried faces/6 in the classroom.}}". We have \underline{at most} 6 senses of the word "face". Group the numbered words into synsets. The similar words must have the same sens number (The order of apparition).}
+		
+		\simpleAnswer{Attentively read this text: "\textbf{\textit{I faced/1 the worst of my nightmares: NLP exam. My face/2 was twitching while facing/3 this sheet. It is hard to confront/4 your fear. So, I looked/5 towards my watch and then into all the worried faces/6 in the classroom.}}". 
+			
+			We have \underline{at most} 6 senses of the word "face". Group the numbered words into synsets. The similar words must have the same sens number (The order of apparition).}
+		
+	\end{question}
+
+	\begin{question}
+		\query{Among these propositions, select the correct ones about Word Sense Disambiguation (WSD):}
+		
+		\bMultiChoices[2]
+		
+		\choice{ML-based WSD can learn the senses automatically.}
+		\choice{ML-based WSD can completely be unsupervised.}
+		\choice{Word2Vec is good to represent sens embedding.}
+		\choice[c]{BERT is good to represent sens embedding.}
+		\choice[c]{RNNs can be used for WSD.}
+		\choice[c]{No need for WSD if there is no polysemy.}
+		
+		\eChoices
+		
+	\end{question}
+
+	\begin{question}
+		\query{Among these propositions, select the correct ones about Word Sense Disambiguation (WSD):}
+		
+		\bSingleChoice[2]
+		
+		\choice[c]{aa}
+		\choice{bbb}
+		\choice{cccc}
+		\choice{ddddd}
+		
+		%		\choice{ddddd}
+		
+		\eChoices
+		
+	\end{question}
+
+	\begin{question}
+		\query{Among these propositions, select the correct ones about Word Sense Disambiguation (WSD):}
+		
+		\bMultiCmp[3]{1cm}{}
+		
+		\cmp{aaa}{}
+		\cmp{bbbbb}{}
+		\cmp{ccccccc}{}
+		
+		\eCmp
+		
+	\end{question} 
+
+\end{document}
