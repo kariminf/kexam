@@ -15,7 +15,7 @@
 	For multiple choice questions, a wrong choice cancels a correct one. The smallest grade per question is 0.
 	
 	\begin{question}
-		\query{Attentively read this text: ``\textbf{\textit{I faced/1 the worst of my nightmares: NLP exam. My face/2 was twitching while facing/3 this sheet. It is hard to confront/4 your fear. So, I looked/5 towards my watch and then into all the worried faces/6 in the classroom.}}". We have \underline{at most} 6 senses of the word "face". Group the numbered words into synsets. The similar words must have the same sens number (The order of apparition).}
+		Attentively read this text: ``\textbf{\textit{I faced/1 the worst of my nightmares: NLP exam. My face/2 was twitching while facing/3 this sheet. It is hard to confront/4 your fear. So, I looked/5 towards my watch and then into all the worried faces/6 in the classroom.}}". We have \underline{at most} 6 senses of the word "face". Group the numbered words into synsets. The similar words must have the same sens number (The order of apparition).
 		
 		\simpleAnswer{Attentively read this text: "\textbf{\textit{I faced/1 the worst of my nightmares: NLP exam. My face/2 was twitching while facing/3 this sheet. It is hard to confront/4 your fear. So, I looked/5 towards my watch and then into all the worried faces/6 in the classroom.}}". 
 			
@@ -23,11 +23,12 @@
 		
 	\end{question}
 
+	
+
 	\begin{question}
-		\query{Among these propositions, select the correct ones about Word Sense Disambiguation (WSD):}
-		
+		Among these propositions, select the correct ones about Word Sense Disambiguation (WSD):
+
 		\bMultiChoices[2]
-		
 		\choice{ML-based WSD can learn the senses automatically.}
 		\choice{ML-based WSD can completely be unsupervised.}
 		\choice{Word2Vec is good to represent sens embedding.}
@@ -40,32 +41,45 @@
 	\end{question}
 
 	\begin{question}
-		\query{Among these propositions, select the correct ones about Word Sense Disambiguation (WSD):}
+		Among these propositions, select the correct ones about Word Sense Disambiguation (WSD):
 		
 		\bSingleChoice[2]
-		
 		\choice[c]{aa}
 		\choice{bbb}
 		\choice{cccc}
 		\choice{ddddd}
-		
-		%		\choice{ddddd}
-		
 		\eChoices
 		
 	\end{question}
 
 	\begin{question}
-		\query{Among these propositions, select the correct ones about Word Sense Disambiguation (WSD):}
+		Compare these text coherence methods: Cosine similarity(CS), Rhetorical Structure Theory (RST), Penn Discourse TreeBank (PDTB), Centering theory (CT) and Entity Grid model (EGM). 
 		
-		\bMultiCmp[3]{1cm}{}
-		
-		\cmp{aaa}{}
-		\cmp{bbbbb}{}
-		\cmp{ccccccc}{}
-		
+		\bMultiCmp{1.1cm}{CS&RST&PDTB&CT&EGM}
+		\cmp{Adjacent sentences  share similar concepts (entities or words).}{1&4}
+		\cmp{All parts of text must be connected to form a tree structure.}{2}
+		\cmp{Heavily based on discourse connectives.}{3}
+		\cmp{A coherent document follows a syntactic pattern.}{5}
 		\eCmp
 		
 	\end{question} 
+
+	\begin{question}
+		For each application, select the task which is more related to it than others. These tasks are: Word Sense Disambiguation (WSD), Semantic Roles Labeling (SRL), Named Entity Recognition (NER), Sentence Ordering (SO). 
+		
+		\bSingleCmp{1cm}{WSD&SRL&NER&SO}
+		\cmp{Direct Machine translation.}{1}
+		\cmp{Extractive Automatic text summarization.}{4}
+		\cmp{IR-based Question/Answering.}{3}
+		\eCmp
+		
+	\end{question} 
+
+%	\addQuestions
+
+	\section{Ex1. Knowledge Test}
+	
+	
+%	\addQuestions
 
 \end{document}
